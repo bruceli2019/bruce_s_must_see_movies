@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "movies#index"
   # Routes for the Role resource:
   # CREATE
   get "/roles/new", :controller => "roles", :action => "new"
